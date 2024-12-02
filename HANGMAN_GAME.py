@@ -1,7 +1,7 @@
 import random
 
 # List of possible words for the game
-word_list = ["python", "programming", "hangman", "challenge", "developer", "computer", "code"]
+word_list = ["python", "programming", "hangman", "challenge", "developer", "computer", "code","alpha","code"]
 
 def choose_word():
     """Randomly selects a word from the word list."""
