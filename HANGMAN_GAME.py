@@ -9,7 +9,7 @@ def choose_word():
 
 def display_word(word, guessed_letters):
     """Displays the current state of the word with guessed letters."""
-    return ''.join([letter if letter in guessed_letters else '_' for letter in word])
+    return ''.join([letter if letter in guessed_letters else ' _' for letter in word])
 
 def hangman():
     # Choose a random word
