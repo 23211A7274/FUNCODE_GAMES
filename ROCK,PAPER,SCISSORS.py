@@ -8,7 +8,7 @@ def display():
     print("SCISSORS")
 
 
-def game(c_wins,U_wins):
+def game(c_wins,u_wins):
     
     while True:
         computer_choice=random.choice(["rock","paper","scissors"])
@@ -49,7 +49,7 @@ def game(c_wins,U_wins):
         elif user_choice=='rock' and computer_choice=='scissors':
             print(f"computer choice is {computer_choice}")
             print("u wins")
-            U_wins+=1
+            u_wins+=1
         elif user_choice=='scissors' and computer_choice=='scissors':
             print(f"computer choice is {computer_choice}")
             print("try again")
@@ -57,7 +57,7 @@ def game(c_wins,U_wins):
         elif user_choice=='scissors' and computer_choice=='paper':
             print(f"computer choice is {computer_choice}")
             print("u wins")
-            U_wins+=1
+            u_wins+=1
         elif user_choice=='scissors' and computer_choice=='rock':
             print(f"computer choice is {computer_choice}")
             print("c wins")
@@ -67,8 +67,8 @@ def game(c_wins,U_wins):
             None
 
     print("Thank you for playing ")    
-    if U_wins > c_wins:
-        print(f"The user have won with {U_wins} points")
+    if u_wins > c_wins:
+        print(f"The user have won with {u_wins} points")
     else:
         print(f"The computer won with {c_wins} points")
 
@@ -76,5 +76,5 @@ def game(c_wins,U_wins):
 if __name__=="__main__":
     display()
     c_wins=0
-    U_wins=0
-    game(c_wins,U_wins)
+    u_wins=0
+    game(c_wins,u_wins)
