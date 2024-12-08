@@ -1,2 +1,2 @@
-# CodeAlpha_HANGMAN
-This is my hangman game created as a task given by CodeAlpha Team 
+# FUNCODE_HANGMAN
+THERE IS NOTHING TO READ HERE HEHE!
